@@ -21,17 +21,13 @@ jobs:
         channel: 'stable'
 
     - name: Install dependencies
-      run: |
-        cd zadam_final
-        flutter pub get
+      run: flutter pub get
 
     - name: Build APK
-      run: |
-        cd zadam_final
-        flutter build apk --release
+      run: flutter build apk --release
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
         name: zadam-app-release
-        path: zadam_final/build/app/outputs/flutter-apk/app-release.apk
+        path: build/app/outputs/flutter-apk/app-release.apk
