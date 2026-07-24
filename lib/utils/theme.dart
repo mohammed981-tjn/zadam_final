@@ -33,7 +33,7 @@ class AppTheme {
       filled: true, fillColor: Colors.white,
       border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
     ),
-    cardTheme: CardThemeData(
+    cardTheme: CardTheme(
       elevation: 2, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
     ),
     scaffoldBackgroundColor: AppColors.surface,
