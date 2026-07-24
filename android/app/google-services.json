@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "666929631886",
+    "project_id": "zadamfinal",
+    "storage_bucket": "zadamfinal.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666929631886:android:9bb8c524adaae3d8136fdf",
+        "android_client_info": {
+          "package_name": "com.zadam.delivery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdTLDZZWnOKegad-OJX32djQIEkaG7K8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
